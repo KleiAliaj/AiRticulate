@@ -109,14 +109,14 @@ function About() {
             variants={thirdAnimate}
             className="flex items-center content-center justify-center w-full gap-2 sm:mt-5 sm:scale-90"
           >
-            Built with 💖 by Ty
+            Built with 💖 
           </motion.div>
         </TextSection>
         <motion.div
           className="md:w-1/3 sm:w-full h-[23em] md:mb-12"
           variants={photoAnimate}
         >
-          <ImageSection src="/kitty-sm.webp" alt="Image of kitty" />
+          <ImageSection src="/robo.jpeg" alt="Image of kitty" />
         </motion.div>
       </DualSection>
     </div>

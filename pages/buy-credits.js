@@ -64,7 +64,7 @@ function BuyCredits(props) {
       {/* <script async src="https://cdn.paddle.com/paddle/paddle.js">
           {console.log("Loaded paddleeeeeeeeeee from script")}
         </script> */}
-      <Script
+      {/* <Script
         id="paddle-checkout-js"
         src="https://cdn.paddle.com/paddle/paddle.js"
         // strategy="beforeInteractive"
@@ -83,7 +83,7 @@ function BuyCredits(props) {
           console.log("Error loading paddle");
           console.log(e);
         }}
-      />
+      /> */}
       <div className="mt-4 font-semibold text-center">
         <h1 className="md:text-5xl russo text-t-bd sm:text-2xl">
           Credit Refill
@@ -176,7 +176,7 @@ function BuyCredits(props) {
                     //   }
                   }}
                 >
-                  Buy
+                  Coming Soon 
                 </button>
               </div>
 
@@ -228,7 +228,7 @@ function BuyCredits(props) {
                     //   }
                   }}
                 >
-                  Buy
+                  Coming soon
                 </button>
               </div>
             </div>

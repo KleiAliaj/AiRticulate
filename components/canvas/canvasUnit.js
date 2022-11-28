@@ -193,7 +193,7 @@ function CanvasUnit({ title, kind, description, qContext, type, icon, }) {
           <Loader show={aiLoading} />
         </div>
         <textarea
-          className="w-full h-full textarea-tw !rounded-sm min-h-[20em] !placeholder-slate-500/50 !bg-white/90 lato "
+          className="w-full h-full textarea-tw !rounded-sm min-h-[20em] !placeholder-slate-500/50 !bg-black/90 lato "
           value={text}
           onChange={(e) => setText(e.target.value)}
           placeholder={description}

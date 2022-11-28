@@ -9,12 +9,12 @@ function Footer() {
           <picture>
             <source srcSet="/bmc-g small.webp" type="image/webp" />
             <img
-              src="/kitty-sm.webp"
+              src="/robo.jpeg"
               className="w-12 h-auto"
               alt="CanvasCat logo"
             />
           </picture>
-          <span className="mx-1 text-xl russo logo">CanvasCat</span>
+          <span className="mx-1 text-xl russo logo">AiRticulate</span>
         </a>
         <span className="inline-flex items-center justify-center mt-2 mb-2">
           <a href="https://twitter.com/FieroTy" className="text-gray-500">
@@ -31,7 +31,7 @@ function Footer() {
           </a>
         </span>
         <p className="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-0 sm:border-gray-200 sm:py-2 sm:mt-0 lato">
-          © 2022 Ty Fiero
+          © 2022 
           <a
             href="https://twitter.com/FieroTy"
             className="ml-1 text-gray-600"

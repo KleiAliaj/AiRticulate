@@ -81,14 +81,14 @@ export default function Home() {
               Want to have some fun with an AI today??
             </h3>
             <div className="flex gap-3">
-              <Link href={"/bummer"}>
+              {/* <Link href={"/bummer"}>
                 <a className="button">
                   Not today <FaSadTear />
                 </a>
-              </Link>
+              </Link> */}
               <Link href={"/create"}>
                 <a className="button2">
-                  Heck Yeah! <FaArrowRight />
+                  Create business model <FaArrowRight />
                 </a>
               </Link>
             </div>
@@ -98,7 +98,7 @@ export default function Home() {
           className="md:w-1/3 sm:w-full h-[23em] md:mb-12"
           variants={photoAnimate}
         >
-          <ImageSection src="/kitty.webp" alt="Image of CanvasCat" />
+          <ImageSection src="/robo.jpeg" alt="Image of CanvasCat" />
         </motion.div>
       </DualSection>
     </div>

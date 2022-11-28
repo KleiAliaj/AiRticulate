@@ -41,12 +41,12 @@ function Navbar() {
 
     const currentTheme = theme === "system" ? systemTheme : theme;
 
-    if (currentTheme === "dark") {
+    if (currentTheme === "light") {
       return (
         <BsMoon
           className="text-white transition md:w-5 md:h-5 sm:w-10 sm:h-10 hover:text-teal-200"
           role="button"
-          onClick={() => setTheme("light")}
+          onClick={() => setTheme("dark")}
         />
       );
     } else {
@@ -144,19 +144,19 @@ function Navbar() {
               href="#"
             >
               <div className="relative z-20 w-[81px] h-[54px] transition ">
-                <Image
-                  src="/kitty-sm.webp"
+                {/* <Image
+                  src="/"
                   alt="CanvasCat logo"
                   className="z-20"
                   layout="fill"
-                />
+                /> */}
               </div>
               <div className="flex lg:pr-8">
                 <h1 className="z-20 font-bold leading-tight tracking-tighter sm:text-3xl lg:text-5xl logo f1 whitespace-nowrap russo">
-                  Canvas
+                Ai
                 </h1>
                 <h1 className="z-20 font-bold leading-tight tracking-tighter sm:text-3xl lg:text-5xl logo f1 whitespace-nowrap russo">
-                  Cat
+                 Rticulate
                 </h1>
               </div>
             </a>
@@ -207,7 +207,7 @@ function Navbar() {
                   </a>
                 </Link>
               </li>
-              <li>{renderThemeChanger()}</li>
+              {/* <li>{renderThemeChanger()}</li> */}
             </motion.ul>
           </>
         )}
