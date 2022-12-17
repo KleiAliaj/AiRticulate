@@ -4,7 +4,7 @@ import axios from "axios";
 var throttle = require("lodash.throttle");
 
 const OpenAI = require("openai-api");
-const openai = new OpenAI('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');
+const openai = new OpenAI('env_api');
 // import gpt3APIRequest from "./gpt";
 
 // import * as uuid from 'uuid'
